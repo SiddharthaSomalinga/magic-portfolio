@@ -7,15 +7,15 @@ const person: Person = {
   name: `Siddhartha Somalinga`,
   role: "Software Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  email: "siddhartha.somalinga@gmail.com",
+  location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  title: <>Get In Touch</>,
+  description: <>If you're considering my contribution, have a question, or just want to say hi, you can count on hearing back from me!</>,
 };
 
 const social: Social = [
@@ -25,13 +25,13 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/SiddharthaSomalinga",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/siddhartha-somalinga/",
     essential: true,
   },
   {
@@ -39,12 +39,6 @@ const social: Social = [
     icon: "instagram",
     link: "https://www.instagram.com/once_ui/",
     essential: false,
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-    essential: true,
   },
   {
     name: "Email",
@@ -118,17 +112,29 @@ const about: About = {
         images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Petra Security",
+        timeframe: "2025 - 2025",
+        role: "Software Engineer Intern",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Used Python to build an automated cybersecurity monitoring system that tracked online forums for key cybersecurity topics like token theft and business email compromise (BEC), leading to a 60% increase in monitoring coverage
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Applied AI-based threat detection algorithms to optimize the relevance of alerts, improving real-time responsiveness to cybersecurity threats by 40% and helping clients of the Microsoft 365 to act more quickly and accurately on potential cybersecurity attacks.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "ACM UTD",
+        timeframe: "2024 - 2025",
+        role: "ACM Projects Member - Full Stack Developer",
+        achievements: [
+          <>
+            Used React Native to design and implement real-time voice assistant features for CoDriver, a mobile app using conversational AI to enhance driver safety and reduce distractions, resulting in a 35% decrease in driver-screen interactions.
+          </>,
+          <>
+            Contributed to the development of a hands-free, conversational AI system that delivers personalized travel information and contextual updates by integrating third-party navigation systems, improving overall app usability and user engagement by 25%
           </>,
         ],
         images: [],
@@ -141,7 +147,7 @@ const about: About = {
     institutions: [
       {
         name: "University of Texas at Dallas",
-        description: <>Studied computer science.</>,
+        description: <>Major: Computer Science</>,
       },
     ],
   },
