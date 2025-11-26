@@ -35,12 +35,6 @@ const social: Social = [
     essential: true,
   },
   {
-    name: "Instagram",
-    icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
-    essential: false,
-  },
-  {
     name: "Email",
     icon: "email",
     link: `mailto:${person.email}`,
@@ -106,14 +100,14 @@ const about: About = {
     experiences: [
       {
         company: "JPMorganChase",
-        timeframe: "2025 - Present",
+        timeframe: "Summer 2026",
         role: "Incoming Software Engineer Intern",
         achievements: [],
         images: [],
       },
       {
         company: "Petra Security",
-        timeframe: "2025 - 2025",
+        timeframe: "May 2025 - Aug 2025",
         role: "Software Engineer Intern",
         achievements: [
           <>
@@ -127,7 +121,7 @@ const about: About = {
       },
       {
         company: "ACM UTD",
-        timeframe: "2024 - 2025",
+        timeframe: "Feb 2025 - Apr 2025",
         role: "ACM Projects Member - Full Stack Developer",
         achievements: [
           <>
@@ -143,7 +137,7 @@ const about: About = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
         name: "University of Texas at Dallas",
