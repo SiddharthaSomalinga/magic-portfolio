@@ -132,14 +132,9 @@ export default function About() {
                   backdropFilter: "blur(var(--static-space-1))",
                 }}
               >
-                <Icon paddingLeft="12" name="calendar" onBackground="brand-weak" />
-                <Row paddingX="8">Schedule a call</Row>
-                <IconButton
-                  href={about.calendar.link}
-                  data-border="rounded"
-                  variant="secondary"
-                  icon="chevronRight"
-                />
+                
+                <Row paddingX="8">Incoming Software Engineer Intern @ JPMorganChase</Row>
+                
               </Row>
             )}
             <Heading className={styles.textAlign} variant="display-strong-xl">
